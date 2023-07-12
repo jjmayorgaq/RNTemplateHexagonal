@@ -9,11 +9,7 @@ import {
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  Header,
-  LearnMoreLinks,
-} from 'react-native/Libraries/NewAppScreen';
+import {Colors, Header} from 'react-native/Libraries/NewAppScreen';
 import CreditCardUseCaseProvider, {
   useCreditCardImpl,
 } from '@core/Modules/CreditCards/Applications/UseCases';
@@ -74,7 +70,7 @@ function App(): JSX.Element {
                   }}>
                   <Text
                     style={{fontSize: 18, fontWeight: 'bold', marginBottom: 8}}>
-                    {'US$ ' + creditCard.cashAdvance }
+                    {'US$ ' + creditCard.cashAdvance}
                   </Text>
                   <Text
                     style={{

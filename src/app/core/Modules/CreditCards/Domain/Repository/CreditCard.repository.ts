@@ -21,8 +21,7 @@ export const validate = (
 export class CreditCardRepository
   implements IGetAll<CreditCard[]>, IPost<CreditCard, void>
 {
-  constructor(private readonly http: HttpImplementation){}
-
+  private http = new HttpImplementation();
   public async getAll(): Promise<CreditCard[]> {
     const creditCard = await this.http.get(
       'https://run.mocky.io/v3/66f931fe-02c6-450d-820f-dc3fd64c3662',
