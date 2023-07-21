@@ -2,7 +2,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -184,6 +184,7 @@ carpeta. Esto incluye componentes, servicios, modelos y archivos de infraestruct
 específica. Como resultado, los equipos pueden trabajar en características individuales sin interferir con el trabajo de
 otros equipos y mantener una estructura de proyecto más clara y coherente.
 
+```
 └── app
     ├── App.tsx
     ├── assets
@@ -246,3 +247,4 @@ otros equipos y mantener una estructura de proyecto más clara y coherente.
     │   └── Helpers
     │       └── ZodValidator.ts
     └── tests-mocks
+```

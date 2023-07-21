@@ -2,7 +2,7 @@ import ButtonComponent from '@components/Button';
 import {NavigationProp, ParamListBase} from '@react-navigation/native';
 import React from 'react';
 import {View} from 'react-native';
-import FormRecoverPasswordComponent from '../components/FormRecoverPassword';
+import FormRecoverPasswordComponent from '../Auth/components/FormRecoverPassword';
 
 const RecoverPasswordPresenter = ({
   navigation,
